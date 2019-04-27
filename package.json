@@ -1,0 +1,23 @@
+{
+  "name": "t-small",
+  "version": "1.0.0",
+  "description": "picture small",
+  "main": "index.js",
+  "bin": {
+    "small": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node ./bin/index.js"
+  },
+  "author": "wb",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "commander": "^2.20.0",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.3.1",
+    "tinify": "^1.6.0-beta.2"
+  }
+}
