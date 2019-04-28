@@ -1,19 +1,21 @@
 {
-  "name": "t-small",
-  "version": "1.0.0",
-  "description": "picture small",
+  "name": "tiny-pic",
+  "version": "0.0.1",
+  "key":"tiny picture",
+  "description": "tiny picture",
   "main": "index.js",
   "bin": {
-    "small": "./bin/index.js"
+    "tiny": "./bin/index.js"
   },
   "scripts": {
     "test": "node ./bin/index.js"
   },
-  "author": "wb",
-  "license": "ISC",
+  "author": "wbyc816",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
+    "clui": "^0.3.6",
     "commander": "^2.20.0",
     "configstore": "^4.0.0",
     "figlet": "^1.2.1",
