@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 const program = require('commander')
-const start=require('../lib/start')
 const tinify = require('../lib/tinify')
 const package = require('../package.json')
+const chalk = require('chalk');
 
-start()
 
 program
   .command('start')
