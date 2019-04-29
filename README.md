@@ -1,5 +1,5 @@
 
-# Tiny-pic
+# Tiny-picture
 # 介绍
 基于[tinify-nodejs](https://github.com/tinify/tinify-nodejs)封装的图片压缩CLI，支持格式png、jpg，使用前需前往[tinifypng开发者中心](https://tinypng.com/developers)注册获取key，每个key当月可使用500次，可申请多个key。
 # 安装
