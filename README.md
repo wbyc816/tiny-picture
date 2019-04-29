@@ -21,7 +21,7 @@
 
 设置tinifyAPI的key
 
-    $ tiny se <key>
+    $ tiny set <key>
 
  打印当前key当月剩余使用次数
 
