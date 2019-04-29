@@ -4,12 +4,18 @@ const tinify = require('../lib/tinify')
 const package = require('../package.json')
 const chalk = require('chalk');
 
-
 program
   .command('start')
   .description('compress pictures in current working directory')
   .action(options => {
-    require('../lib/start')
+    require('../lib/start')({isGit:false})
+  })
+
+program
+  .command('git')
+  .description('compress pictures in current working directory')
+  .action(options => {
+    require('../lib/start')({isGit:true})
   })
 
 program
