@@ -1,6 +1,6 @@
 {
   "name": "tiny-picture",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "key":"tiny picture cli",
   "description": "tiny picture",
   "main": "index.js",
