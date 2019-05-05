@@ -1,6 +1,7 @@
 {
   "name": "tiny-picture",
   "version": "0.0.3",
+  "homepage": "https://github.com/wbyc816/tiny-picture",
   "key":"tiny picture cli",
   "description": "tiny picture",
   "main": "index.js",
@@ -12,6 +13,10 @@
   },
   "author": "wbyc816",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbyc816/tiny-picture.git"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
